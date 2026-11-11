@@ -1,0 +1,13 @@
+"Modelo","MAE_promedio","MAE_desv","bloques_que_gana_al_baseline"
+"Baseline (promedio por zona)",0.025,0.0026,0
+"Referencia cubica (velocidad)",0.0238,0.0019,3
+"OLS con clima",0.0203,0.0016,5
+"Ridge",0.0239,0.0022,3
+"Lasso",0.0213,0.0022,5
+"Elastic-net",0.0214,0.0022,5
+"Splines / GAM",0.0191,0.0021,5
+"Arbol de regresion",0.02,0.0033,5
+"Random Forest",0.0189,0.0022,5
+"Boosting (gbm)",0.0186,0.0023,5
+"Averaging (promedio simple)",0.0186,0.0018,5
+"Stacking (pesos OOF)",0.0185,0.0022,5

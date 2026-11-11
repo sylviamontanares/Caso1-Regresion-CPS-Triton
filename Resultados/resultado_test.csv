@@ -1,0 +1,5 @@
+"conjunto","MAE","RMSE","R2"
+"Baseline - validacion",0.02503,0.03293,0.76501
+"Baseline - test",0.02447,0.03124,0.70789
+"Sistema final - validacion",0.01908,0.02561,0.85784
+"Sistema final - test",0.01937,0.02543,0.80642

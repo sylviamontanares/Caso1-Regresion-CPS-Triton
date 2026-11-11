@@ -1,0 +1,14 @@
+DATOS DEL CASO 1 (REGRESION): CONSUMO DE COMBUSTIBLE DEL CPS TRITON
+
+Dataset: FuelCast, subconjunto "cps_triton"
+Enlace:  https://huggingface.co/datasets/krohnedigital/FuelCast
+Articulo: FuelCast: Benchmarking Tabular and Temporal Models for Ship Fuel Consumption. arXiv:2510.08217
+Licencia: CC BY-NC-ND 4.0 (uso no comercial, sin obras derivadas)
+
+Como obtener el archivo que usa el script:
+1. Entrar al enlace de Hugging Face, pestana "Files and versions".
+2. Descargar el archivo parquet del subconjunto cps_triton.
+3. Guardarlo como CPS_Triton.parquet en la carpeta desde la que se ejecuta el script
+   (en este repositorio, la carpeta datos/ contiene una copia del archivo).
+
+Tamano esperado: 25351 filas y 62 columnas, una fila cada 5 minutos.

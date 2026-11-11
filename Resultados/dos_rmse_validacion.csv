@@ -1,0 +1,13 @@
+"Modelo","RMSE_general","RMSE_subgrupo_1a6","subgrupo_vs_baseline"
+"Baseline (promedio por zona)",0.0329,0.0506,1
+"Referencia cubica (velocidad)",0.0309,0.0516,1.02
+"OLS con clima",0.0271,0.0421,0.83
+"Ridge",0.0316,0.0532,1.05
+"Lasso",0.0285,0.045,0.89
+"Elastic-net",0.0287,0.0455,0.9
+"Splines / GAM",0.0256,0.0399,0.79
+"Arbol de regresion",0.0272,0.0457,0.9
+"Random Forest",0.0252,0.0398,0.79
+"Boosting (gbm)",0.0248,0.0388,0.77
+"Averaging (promedio simple)",0.0248,0.0391,0.77
+"Stacking (pesos OOF)",0.0247,0.0387,0.76

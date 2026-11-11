@@ -1,0 +1,13 @@
+"Modelo","RMSE","complejidad","MAE_extra_vs_mejor","IC95_inf","IC95_sup","empata_con_mejor"
+"Baseline (promedio por zona)",0.0329,1,0.0065,0.0049,0.0083,FALSE
+"Referencia cubica (velocidad)",0.0309,2,0.0052,0.0038,0.0068,FALSE
+"OLS con clima",0.0271,3,0.0018,0.001,0.0025,FALSE
+"Lasso",0.0285,3,0.0027,0.0018,0.0038,FALSE
+"Elastic-net",0.0287,3,0.0028,0.0019,0.0039,FALSE
+"Ridge",0.0316,3,0.0053,0.004,0.0068,FALSE
+"Splines / GAM",0.0256,4,5e-04,-2e-04,0.0013,TRUE
+"Arbol de regresion",0.0272,4,0.0014,6e-04,0.0022,FALSE
+"Boosting (gbm)",0.0248,5,1e-04,-1e-04,3e-04,TRUE
+"Random Forest",0.0252,5,3e-04,0,7e-04,FALSE
+"Stacking (pesos OOF)",0.0247,6,0,0,0,TRUE
+"Averaging (promedio simple)",0.0248,6,1e-04,-3e-04,4e-04,TRUE

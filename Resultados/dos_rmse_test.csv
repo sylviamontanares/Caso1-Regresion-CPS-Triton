@@ -1,0 +1,5 @@
+"conjunto","RMSE_general","RMSE_subgrupo","filas_subgrupo"
+"Baseline - validacion",0.03293,0.05056,364
+"Baseline - test",0.03124,0.04274,356
+"Sistema final - validacion",0.02561,0.03991,364
+"Sistema final - test",0.02543,0.04044,356

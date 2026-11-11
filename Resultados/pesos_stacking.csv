@@ -1,0 +1,5 @@
+"modelo","peso"
+"OLS con clima",0.0743
+"Splines / GAM",0.0633
+"Random Forest",0.2155
+"Boosting (gbm)",0.647

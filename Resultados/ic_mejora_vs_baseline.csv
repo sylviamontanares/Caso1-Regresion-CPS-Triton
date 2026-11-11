@@ -1,0 +1,12 @@
+"Modelo","mejora_MAE","IC95_inf","IC95_sup"
+"Referencia cubica (velocidad)",0.00124,0.00021,0.00236
+"OLS con clima",0.00473,0.00328,0.00642
+"Ridge",0.00116,-0.00012,0.0026
+"Lasso",0.00375,0.00245,0.00509
+"Elastic-net",0.00364,0.00231,0.00499
+"Splines / GAM",0.00595,0.00454,0.00754
+"Arbol de regresion",0.00507,0.00328,0.00725
+"Random Forest",0.00614,0.00468,0.0078
+"Boosting (gbm)",0.00639,0.00475,0.00834
+"Averaging (promedio simple)",0.00642,0.00503,0.00803
+"Stacking (pesos OOF)",0.00648,0.00492,0.00827
